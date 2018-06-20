@@ -58,6 +58,8 @@ h2{
 .back img{
 	position: absolute;
 	opacity: 0.5;
+	-moz-transition:all 1s ease-in;
+    -webkit-transition:all 1s ease-in;
 	transition: all 1s ease-in;
 }
 .back img:nth-child(1){
