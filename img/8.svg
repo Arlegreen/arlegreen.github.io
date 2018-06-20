@@ -1,0 +1,12 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.15">
+<path d="M2.4325 25.7512H1.75C0.783502 25.7512 0 24.9677 0 24.0012V1.75C0 0.783502 0.783502 0 1.75 0H17.7625C18.729 0 19.5125 0.783502 19.5125 1.75V2.4325" transform="translate(25.1087 5.04248) rotate(39)" stroke="black" stroke-width="0.9"/>
+<path d="M2.4325 25.76H1.75C0.783502 25.76 0 24.9765 0 24.01V1.75C0 0.783502 0.783502 0 1.75 0H17.7625C18.729 0 19.5125 0.783502 19.5125 1.75V7" transform="translate(25.4751 8.46924) rotate(39)" stroke="black" stroke-width="0.9"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M19.5037 24.1938C19.499 25.0519 18.8044 25.7465 17.9463 25.7512H1.5575C0.699305 25.7465 0.00478114 25.0519 0 24.1938V1.5575C0.00478114 0.699305 0.699305 0.00478114 1.5575 0H12.4862L19.4862 7L19.5037 24.1938Z" transform="translate(25.8292 11.8973) rotate(39)" stroke="black" stroke-width="0.9"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.9125 13.825C10.7302 13.825 13.825 10.7302 13.825 6.9125C13.825 3.09483 10.7302 0 6.9125 0C3.09483 0 0 3.09483 0 6.9125C0 10.7302 3.09483 13.825 6.9125 13.825Z" transform="translate(22.5369 20.4678) rotate(39)" stroke="black" stroke-width="0.9"/>
+<path d="M0 0V5.11875H4.7775" transform="translate(26.78 26.212) rotate(39)" stroke="black" stroke-width="0.9"/>
+<path d="M0 0H5.7925" transform="translate(25.8654 16.3852) rotate(39)" stroke="black" stroke-width="0.9"/>
+<path d="M0 0H5.7925" transform="translate(24.6099 17.9356) rotate(39)" stroke="black" stroke-width="0.9"/>
+<path d="M0 0V7.0175H7.0175" transform="translate(35.5328 19.7551) rotate(39)" stroke="black" stroke-width="0.9" stroke-linejoin="round"/>
+</g>
+</svg>

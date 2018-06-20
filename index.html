@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
+        <title>Test Log_in </title>
+        
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />        
+            
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/snippet_log3d.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    </head>
+    
+	<body>
+	<header class="header">
+	    <div class="container">
+	        <div class="block">
+	            <div class="left col-md-5">
+                        <div class="col-md-6 col-sm-6 col-lg-12">
+                            <img class="top_logo" src="img/logo.png" />
+                            <h2>Welcome to The Nike User Area</h2>
+                            <p>To request an account, just call us</p>
+                            <ul class="cont">
+                                <li>+245 04 166 0355</li>
+                                <li>+347 42 390 2456</li>
+                            </ul>
+                            <div class="social">
+                                <img src="img/Social_Facebook_icon.png">
+                                <img src="img/Social_Twitter_icon.png">
+                                <img src="img/Social_LinkedIn_icon.png">
+                            </div>
+                        </div>
+
+	            </div>
+                <div class="back">
+                    <img class="move" src="img/1.png">
+                    <img class="move" src="img/2.png">
+                    <img class="move" src="img/3.png">
+                    <img class="move" src="img/4.png">
+                    <img class="move" src="img/5.png">
+                    <img class="move" src="img/6.png">
+                    <img class="move" src="img/7.png">
+                    <img class="move" src="img/8.png">
+                    <img class="move" src="img/9.png">
+                    <img class="move" src="img/11.png">
+                    <img class="move" src="img/12.png">
+                    <img class="move" src="img/13.png">
+                    <img class="move" src="img/14.png">
+                    <img class="move" src="img/15.png">
+                    <img class="move" src="img/16.png">
+                    <img class="move" src="img/17.png">
+                    <img class="move" src="img/18.png">
+                    <img class="move" src="img/19.png">
+                    <img class="move" src="img/21.png">
+                    <img class="move" src="img/22.png">
+                    <img class="move" src="img/23.png">
+                    <img class="move" src="img/24.png">
+                    <img class="move" src="img/25.png">
+                    <img class="move" src="img/26.png">
+                    <img class="move" src="img/27.png">
+                    <img class="move" src="img/28.png">
+                    <img class="move" src="img/29.png">
+                <div id="formContainer" class="login col-lg-4 col-md-4 col-sm-4 col-xs-9">
+                    <div id="login">
+                    <h3>Login</h3>
+                    <p>This is a secure system and you will need to provide your login details to access the site</p>
+                    <form action="" method="">
+                        <input id="name" name="user" type="text" placeholder="User name">
+                        <input id="email" type="password" placeholder="Email address">
+                        <a id="triangle-topright" onclick="myFunction()">Forgot password?</a>
+                        <button class="btn btn-info btn-block" type="submit">Log in</button>
+                    </form>
+                </div>
+                <div id="recover">
+                    <h3>Reset password</h3>
+                    <p>Please enter your credentials first. Won't be shared publicly, won't be spammed.</p>
+                    <form action="" method="">
+                        <input id="name" name="user" type="text" placeholder="User name">
+                        <input id="email" type="password" placeholder="Email address">
+                        <button class="btn btn-info btn-block" type="submit">Reset password</button>
+                        <a id="triangle-topright" onclick="myFunction()">Back to log-in page</a>
+                    </form>
+                </div>
+                </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <script type="text/javascript">
+            function myFunction() {
+    $( ".move" ).toggleClass('on');
+    $( "#formContainer" ).toggleClass('scal');
+    window.setTimeout(function() {
+         $( "#formContainer" ).toggleClass('flipped');
+    }, 500);
+    
+    window.setTimeout(function() {
+        $( ".move" ).toggleClass('on');
+        $( "#formContainer" ).toggleClass('scal');
+    }, 1300);
+    
+}
+h = $('#recover').height();
+$('.back').height(h + 20);
+        </script>
+     <!--    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <script type="text/javascript">
+            var width = 960,
+    height = 500;
+
+var svg = d3.select('html')
+  .append('svg')
+    .attr('width', width)
+    .attr('height', height)
+
+var shapes = d3.range(30).map(function(i){
+  var rv = {
+    offset: [Math.random()*width, Math.random()*height],
+    rotate: Math.random(),
+    rotateSpeed: (Math.random() - .5)/50,
+    type: ['cross', 'square', 'triangle-up'][i % 3],
+    scale: Math.random()*10,
+    centroid: [0, 0],
+  }
+  rv.path = d3.svg.symbol().type(rv.type)()
+  if (rv.type == 'triangle-up') rv.centroid = [0, 1.754]
+  
+  return rv
+})
+
+
+var isShift = false
+var initalRotate = 0
+var initalScale = 1
+var drag = d3.behavior.drag()
+  .on('dragstart', function(d){
+    isShift = d3.event.sourceEvent.shiftKey
+    initalRotate = d.rotate
+    initalScale = d.scale
+  })
+  .on('drag', function(d){
+    var x = d3.event.x
+    var y = d3.event.y
+
+    if (isShift){
+      d.rotate = initalRotate + x/500
+      d.scale = initalScale*Math.pow(1.3, (y - d.offset[1])/50)
+      d.rotateSpeed = 0
+    } else{
+      d.offset = [x, y]                
+    }
+
+    d3.select(this).attr('transform', transform)
+  })
+  .origin(function(d){ return {x: d.offset[0], y: d.offset[1]} })
+
+
+var shapeSel = svg.selectAll('path')
+    .data(shapes).enter()
+  .append('path')
+    .attr('d', function(d){ return d.path })
+    .attr('transform', transform)
+    shapeSel.call(drag)
+
+
+d3.timer(function(t){
+  shapeSel
+      .each(function(d){ d.rotate += d.rotateSpeed })
+      .attr('transform', transform)
+})
+
+
+function transform(d){
+  var x = d.centroid[0]
+  var y = d.centroid[1]
+  var s = d.scale
+  var a = d.rotate
+
+  var matrix = multAffine(
+    [1, 0, 0, 1, d.offset[0], d.offset[1]],
+    [1, 0, 0, 1, x, y],
+    [s, 0, 0, s, 0, 0],
+    [Math.cos(a), Math.sin(a), -Math.sin(a), Math.cos(a), 0, 0],
+    [1, 0, 0, 1, -x, -y]
+  )
+
+  return 'matrix(' + matrix + ')'
+
+  return [
+    'translate(', d.offset, ')',
+    'translate(', d.centroid, ')',
+    'scale(', d.scale, ')',
+    'rotate(', 180 * d.rotate, ')',
+    'translate(', negPos(d.centroid), ')'
+  ].join(' ')
+}
+
+function multAffine(a, b){
+  if (arguments.length < 2) return a
+  var m = [
+    a[0]*b[0] + a[2]*b[1], a[0]*b[2] + a[2]*b[3], a[0]*b[4] + a[2]*b[5] + a[4], 
+    a[1]*b[0] + a[3]*b[1], a[1]*b[2] + a[3]*b[3], a[1]*b[4] + a[3]*b[5] + a[5], 
+  ]
+
+  m = [m[0], m[3], m[1], m[4], m[2], m[5]]
+  if (arguments.length < 3) return m
+
+  return multAffine.apply(null, [m].concat([].slice.call(arguments).slice(2)))
+}
+
+function addPos(a, b){ return [a[0] + b[0],      a[1] + b[1]] }
+function negPos(a){    return [a[0]*-1,          a[1]*-1] }
+function rotPos(d, a){ return [Math.cos(a)*d[0], Math.sin(a)*d[1]] }
+        </script> -->
+    </header>
+	</body>
+</html>

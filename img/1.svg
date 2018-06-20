@@ -1,0 +1,9 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.15">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M32.8312 0H2.7285C1.22449 0.00697927 0.00697927 1.22449 0 2.7285V2.3715C0.00697927 3.87551 1.22449 5.09302 2.7285 5.1H35.5597V2.74125C35.5598 1.23226 34.3402 0.00701854 32.8312 0V0Z" transform="translate(18.6609 13.8278) rotate(16)" stroke="black" stroke-width="0.9"/>
+<path d="M0 0H28.7385" transform="translate(21.2742 17.1105) rotate(16)" stroke="black" stroke-width="0.9"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M11.526 0H2.7285C1.22449 0.00697927 0.00697927 1.22449 0 2.7285V5.6865C0.00697927 7.19051 1.22449 8.40802 2.7285 8.415H11.526V0Z" transform="translate(39.9361 32.33) rotate(16)" stroke="black" stroke-width="0.9"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M2.0655 4.131C3.20624 4.131 4.131 3.20624 4.131 2.0655C4.131 0.924756 3.20624 0 2.0655 0C0.924756 0 0 0.924756 0 2.0655C0 3.20624 0.924756 4.131 2.0655 4.131Z" transform="translate(41.6008 35.0357) rotate(16)" stroke="black" stroke-width="0.9"/>
+<path d="M35.5597 11.9085V2.7285C35.5528 1.22449 34.3353 0.00697927 32.8312 0H2.7285C1.22449 0.00697927 0.00697927 1.22449 0 2.7285V24.1995C-1.63223e-05 25.7085 1.21953 26.9337 2.7285 26.9408H35.5597V20.3235" transform="translate(18.6573 13.84) rotate(16)" stroke="black" stroke-width="0.9"/>
+</g>
+</svg>
