@@ -1,326 +1,394 @@
 @font-face {
 	font-family: "Poppins";
 	src: url("../fonts/poppins/Poppins-Bold.otf") format("opentype");
-	}
-	@font-face {
-		font-family: "Poppins light";
-		src: url("../fonts/poppins/Poppins-Light.otf") format("opentype");
-		}
-body{
+}
+
+@font-face {
+	font-family: "Poppins light";
+	src: url("../fonts/poppins/Poppins-Light.otf") format("opentype");
+}
+html{
+	height: 100%;
+}
+body {
+	height: 100%;
 	font-family: "Poppins";
 	color: #2B2B2B;
 }
-p{
-	font-family: "Poppins light";
-	line-height: 15px;
+header{
+	height: 100%;
 }
-a{
+p {
+	font-family: "Poppins light";
+	line-height: 16px;
+}
+
+a {
 	font-family: "Poppins light";
 }
-h2{
+
+h2 {
 	line-height: 40px;
 	margin-top: 40px;
-    margin-bottom: 16px;
+	margin-bottom: 16px;
 }
-.clear{
+
+.clear {
 	clear: both;
 }
-.container{
+
+.container {
 	max-width: 800px;
-    min-height: 600px;
-    background: #F4F4F4;
-    overflow: hidden;
+	min-height: 600px;
+	background: #F4F4F4;
+	overflow: hidden;
 	position: relative;
 	padding: 0;
-    padding-top: 110px;
+	padding-top: 110px;
+	top: 50%;
+	-moz-transition: translateY(-50%);
+	-webkit-transition: translateY(-50%);
+    transform: translateY(-50%);
 }
-.left{
+
+.left {
 	margin-left: 57px;
 }
-.left p{
+
+.left p {
 	font-size: 12px;
 	padding-right: 20px;
 }
 
-.left, .left div{
+.left,
+.left div {
 	padding: 0;
 }
-.cont{
+
+.cont {
 	font-family: "Poppins";
 	font-size: 18px;
 	list-style: none;
 	margin-bottom: 30px;
-    margin-top: 16px;
+	margin-top: 18px;
 	padding: 0;
 	padding-right: 19px;
 }
 
-.cont li{
-    margin-bottom: 6px;
-    line-height: 24px;
-    border-bottom: 2px #DD3C39 solid;
+.cont li {
+	margin-bottom: 6px;
+	line-height: 24px;
+	border-bottom: 2px #DD3C39 solid;
 }
-.social img:nth-child(1){
+
+.social img:nth-child(1) {
 	margin-right: 10px;
 }
-.social img:nth-child(2){
+
+.social img:nth-child(2) {
 	margin-right: 7px;
 }
-.back img{
+
+.back img {
 	position: absolute;
 	opacity: 0.5;
-	-moz-transition:all 1s ease-in;
-    -webkit-transition:all 1s ease-in;
+	-moz-transition: all 1s ease-in;
+	-webkit-transition: all 1s ease-in;
 	transition: all 1s ease-in;
 }
-.back img:nth-child(1){
+
+.back img:nth-child(1) {
 	left: 88.88%;
 	right: 4.74%;
 	top: 76%;
 	bottom: 15.5%;
 }
-.back img:nth-child(2){
+
+.back img:nth-child(2) {
 	left: 67.63%;
-right: 27.87%;
-top: 2.83%;
-bottom: 91.17%;
+	right: 27.87%;
+	top: 2.83%;
+	bottom: 91.17%;
 }
-.back img:nth-child(3){
+
+.back img:nth-child(3) {
 	left: 49.27%;
-right: 45.47%;
-top: 85.24%;
-bottom: 7.04%;
+	right: 45.47%;
+	top: 85.24%;
+	bottom: 7.04%;
 }
-.back img:nth-child(4){
+
+.back img:nth-child(4) {
 	left: 83.78%;
 	right: 12.1%;
 	top: 3.67%;
-	bottom: 90.83%;	
+	bottom: 90.83%;
 }
-.back img:nth-child(5){
+
+.back img:nth-child(5) {
 	left: 43.12%;
-right: 52.38%;
-top: 72.37%;
-bottom: 21.63%;
+	right: 52.38%;
+	top: 72.37%;
+	bottom: 21.63%;
 }
-.back img:nth-child(6){
+
+.back img:nth-child(6) {
 	left: 52.53%;
-right: 42.35%;
-top: 12.33%;
-bottom: 80.84%;
+	right: 42.35%;
+	top: 12.33%;
+	bottom: 80.84%;
 }
-.back img:nth-child(7){
+
+.back img:nth-child(7) {
 	left: 91.76%;
 	right: 3.86%;
 	top: 70.43%;
-	bottom: 24.57%;	
+	bottom: 24.57%;
 }
-.back img:nth-child(8){
+
+.back img:nth-child(8) {
 	left: 51.8%;
 	right: 43.25%;
 	top: 58.18%;
-	bottom: 35.21%;	
+	bottom: 35.21%;
 }
-.back img:nth-child(9){
+
+.back img:nth-child(9) {
 	left: 45.69%;
 	right: 48.87%;
 	top: 51.25%;
-	bottom: 41.92%;	
+	bottom: 41.92%;
 }
-.back img:nth-child(10){
+
+.back img:nth-child(10) {
 	left: 91.28%;
 	right: 3.71%;
 	top: 65.25%;
-	bottom: 28.2%;	
+	bottom: 28.2%;
 }
-.back img:nth-child(11){
+
+.back img:nth-child(11) {
 	left: 62.65%;
 	right: 33.59%;
 	top: 12.11%;
-	bottom: 83.45%;	
+	bottom: 83.45%;
 }
-.back img:nth-child(12){
+
+.back img:nth-child(12) {
 	left: 56.54%;
 	right: 39.08%;
 	top: 83.33%;
-	bottom: 10.83%;	
+	bottom: 10.83%;
 }
-.back img:nth-child(13){
+
+.back img:nth-child(13) {
 	left: 81.17%;
 	right: 15.2%;
 	top: 10.67%;
-	bottom: 83.67%;	
+	bottom: 83.67%;
 }
-.back img:nth-child(14){
+
+.back img:nth-child(14) {
 	left: 92.08%;
 	right: 4.05%;
 	top: 52.66%;
-	bottom: 42.17%;	
+	bottom: 42.17%;
 }
-.back img:nth-child(15){
+
+.back img:nth-child(15) {
 	left: 70.29%;
 	right: 25.56%;
 	top: 13.52%;
-	bottom: 82.59%;	
+	bottom: 82.59%;
 }
-.back img:nth-child(16){
+
+.back img:nth-child(16) {
 	left: 81.29%;
 	right: 14.57%;
 	top: 83.98%;
-	bottom: 12.14%;	
+	bottom: 12.14%;
 }
-.back img:nth-child(17){
+
+.back img:nth-child(17) {
 	left: 47.25%;
 	right: 48.88%;
 	top: 37.63%;
-	bottom: 57.21%;	
+	bottom: 57.21%;
 }
-.back img:nth-child(18){
+
+.back img:nth-child(18) {
 	left: 97.65%;
 	right: -2.52%;
 	top: 32.67%;
-	bottom: 60.18%;	
+	bottom: 60.18%;
 }
-.back img:nth-child(19){
+
+.back img:nth-child(19) {
 	left: 43.72%;
 	right: 52.53%;
 	top: 28.5%;
-	bottom: 67.17%;	
+	bottom: 67.17%;
 }
-.back img:nth-child(20){
+
+.back img:nth-child(20) {
 	left: 90.68%;
 	right: 3.32%;
 	top: 22.71%;
-	bottom: 69.29%;	
+	bottom: 69.29%;
 }
-.back img:nth-child(21){
+
+.back img:nth-child(21) {
 	left: 70.77%;
 	right: 24.73%;
 	top: 81.33%;
-	bottom: 12.67%;	
+	bottom: 12.67%;
 }
-.back img:nth-child(22){
+
+.back img:nth-child(22) {
 	left: 44.88%;
 	right: 50.62%;
 	top: 49.16%;
-	bottom: 44.84%;	
+	bottom: 44.84%;
 }
-.back img:nth-child(23){
+
+.back img:nth-child(23) {
 	left: 74.38%;
 	right: 19.5%;
 	top: 86.42%;
-	bottom: 5.42%;	
+	bottom: 5.42%;
 }
-.back img:nth-child(24){
+
+.back img:nth-child(24) {
 	left: 61%;
 	right: 35.25%;
 	top: 82.48%;
-	bottom: 12.52%;	
+	bottom: 12.52%;
 }
-.back img:nth-child(25){
+
+.back img:nth-child(25) {
 	left: 90.2%;
 	right: 6.05%;
 	top: 13.64%;
-	bottom: 81.36%;	
+	bottom: 81.36%;
 }
-.back img:nth-child(26){
+
+.back img:nth-child(26) {
 	left: 88.97%;
 	right: 5.93%;
 	top: 42.98%;
-	bottom: 50.22%;	
+	bottom: 50.22%;
 }
-.back img:nth-child(27){
+
+.back img:nth-child(27) {
 	left: 47.5%;
 	right: 48.75%;
 	top: 19.66%;
-	bottom: 75.34%;	
+	bottom: 75.34%;
 }
-.back img.on{
+
+.back img.on {
 	left: 66.72%;
-    right: 97.53%;
-    top: 40.5%;
-    bottom: 67.17%;
+	right: 97.53%;
+	top: 40.5%;
+	bottom: 67.17%;
 }
-.login{
+
+.login {
 	position: relative;
 	margin-top: 25px;
-	margin-left: 40px;
 }
-.login h3{
+
+.login h3 {
 	margin-top: 35px;
-    margin-bottom: 13px;
+	margin-bottom: 13px;
 }
-.login p{
-	line-height: 16px;
-    font-size: 11px;
+
+.login p {
+	padding-right: 20px;
+	font-size: 11px;
 }
-.login form{
+
+.login form {
 	margin-top: 17px;
 }
 
-.login input{
+.login input {
 	background: rgba(224, 224, 224, 0.32);
-    border-radius: 3.17125px;
-    border: 0;
-    height: 38px;
-    width: 100%;
+	border-radius: 3.17125px;
+	border: 0;
+	height: 38px;
+	width: 100%;
 	font-family: "Poppins light";
 	font-size: 12px;
 	padding-left: 14px;
 	margin-bottom: 12px;
 }
-.login button{
+
+.login button {
 	font-family: "Poppins light";
 	background: #DD3C39;
-    border-radius: 3.17125px;
-    border: 0;
-    height: 38px;
-    margin-top: 26px;
-    margin-bottom: 24px;
+	border-radius: 3.17125px;
+	border: 0;
+	height: 38px;
+	margin-top: 24px;
+	margin-bottom: 24px;
 }
-.login #email{
+
+.login #email {
 	margin-bottom: 8px;
 }
-#login, #recover{
-    position: absolute;
-    background: #FFFFFF;
-    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.0970052);
-    border-radius: 6px;
-    padding: 0 24px;
+
+#login,
+#recover {
+	width: 272px;
+	position: absolute;
+	background: #FFFFFF;
+	box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.0970052);
+	border-radius: 6px;
+	padding: 0 24px;
 }
-form{
+
+form {
 	text-align: right;
 }
-form a{
+
+form a {
 	color: #DD3C39;
 	font-size: 12px;
 	margin-right: 3px;
-    font-weight: 700;
+	font-weight: 700;
 }
-#recover form{
-text-align: center;
+
+#recover form {
+	text-align: center;
 }
-.login #recover #email{
+
+.login #recover #email {
 	margin-bottom: 12px;
 }
-.login #recover button{
+
+.login #recover button {
 	margin-top: 0;
 }
-#recover form a{
-display: block;
-margin-bottom: 24px;
+
+#recover form a {
+	display: block;
+	margin-bottom: 24px;
 }
-@media (max-width: 790px){
-	.container{
+
+@media (max-width: 790px) {
+	.container {
 		padding-top: 50px;
+		top: 0;
+		transform: none;
 	}
-	.back{
+	.back {
 		position: relative;
 		margin-top: 20px;
 	}
-.login{
-	float: none;
-	margin: 0 auto;
-	margin-right: 10%;
-}
+	.login {
+		float: none;
+		margin: 0 auto;
+		margin-right: 10%;
+	}
 }
