@@ -98,13 +98,16 @@
             function myFunction() {
                 $(".move").toggleClass('on');
                 $("#formContainer").toggleClass('scal');
+                $("#formContainer").toggleClass('scal');
                 window.setTimeout(function () {
                     $("#formContainer").toggleClass('flipped');
-                }, 500);
+                }, 700);
 
                 window.setTimeout(function () {
-                    $(".move").toggleClass('on');
                     $("#formContainer").toggleClass('scal');
+                }, 1300);
+                window.setTimeout(function () {
+                    $(".move").toggleClass('on');
                 }, 1000);
 
             }
