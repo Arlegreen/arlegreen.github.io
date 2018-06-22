@@ -7,12 +7,17 @@
 	font-family: "Poppins light";
 	src: url("../fonts/poppins/Poppins-Light.otf") format("opentype");
 }
-
+html{
+	height: 100%;
+}
 body {
+	height: 100%;
 	font-family: "Poppins";
 	color: #2B2B2B;
 }
-
+header{
+	height: 100%;
+}
 p {
 	font-family: "Poppins light";
 	line-height: 16px;
@@ -40,6 +45,10 @@ h2 {
 	position: relative;
 	padding: 0;
 	padding-top: 110px;
+	top: 50%;
+	-moz-transition: translateY(-50%);
+	-webkit-transition: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .left {
@@ -370,6 +379,8 @@ form a {
 @media (max-width: 790px) {
 	.container {
 		padding-top: 50px;
+		top: 0;
+		transform: none;
 	}
 	.back {
 		position: relative;
