@@ -12,7 +12,7 @@ body{
 }
 p{
 	font-family: "Poppins light";
-	line-height: 16px;
+	line-height: 15px;
 }
 a{
 	font-family: "Poppins light";
@@ -30,12 +30,18 @@ h2{
     min-height: 600px;
     background: #F4F4F4;
     overflow: hidden;
-    position: relative;
+	position: relative;
+	padding: 0;
     padding-top: 110px;
 }
 .left{
 	margin-left: 57px;
 }
+.left p{
+	font-size: 12px;
+	padding-right: 20px;
+}
+
 .left, .left div{
 	padding: 0;
 }
@@ -46,14 +52,19 @@ h2{
 	margin-bottom: 30px;
     margin-top: 16px;
 	padding: 0;
+	padding-right: 19px;
 }
 
 .cont li{
-	text-decoration: underline;
-    text-decoration-color: #DD3C39;
+    margin-bottom: 6px;
+    line-height: 24px;
+    border-bottom: 2px #DD3C39 solid;
 }
-.social img{
-	margin-right: 13px;
+.social img:nth-child(1){
+	margin-right: 10px;
+}
+.social img:nth-child(2){
+	margin-right: 7px;
 }
 .back img{
 	position: absolute;
@@ -235,20 +246,26 @@ bottom: 80.84%;
 	margin-left: 40px;
 }
 .login h3{
-    margin-top: 32px;
-    margin-bottom: 5px;
+	margin-top: 35px;
+    margin-bottom: 13px;
+}
+.login p{
+	line-height: 16px;
+    font-size: 11px;
 }
 .login form{
-	margin-top: 18px;
+	margin-top: 17px;
 }
+
 .login input{
 	background: rgba(224, 224, 224, 0.32);
     border-radius: 3.17125px;
     border: 0;
     height: 38px;
     width: 100%;
-    font-family: "Poppins light";
-	padding-left: 12px;
+	font-family: "Poppins light";
+	font-size: 12px;
+	padding-left: 14px;
 	margin-bottom: 12px;
 }
 .login button{
@@ -257,7 +274,7 @@ bottom: 80.84%;
     border-radius: 3.17125px;
     border: 0;
     height: 38px;
-    margin-top: 28px;
+    margin-top: 26px;
     margin-bottom: 24px;
 }
 .login #email{
@@ -275,7 +292,8 @@ form{
 }
 form a{
 	color: #DD3C39;
-    font-size: 12px;
+	font-size: 12px;
+	margin-right: 3px;
     font-weight: 700;
 }
 #recover form{
